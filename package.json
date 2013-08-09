@@ -12,7 +12,8 @@
         "javascript-brunch": "*",
         "coffee-script-brunch": "*",
         "paperboy": "*",
-        "coffeelint": "*"
+        "coffeelint": "*",
+        "verbal-expressions": "*"
     },
     "devDependencies": {
         "mocha": "*",

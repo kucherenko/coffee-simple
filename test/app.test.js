@@ -7,6 +7,7 @@
     chai = require('chai');
   } else {
     App = window.App;
+    chai = window.chai;
   }
 
   chai.should();

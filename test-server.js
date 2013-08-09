@@ -5,7 +5,7 @@ var
 
   PORT = 8003,
   WEBROOT = path.dirname(__filename);
-console.log('Start testing server on http:://localhost:' + PORT)
+console.log('Start testing server on http://localhost:' + PORT + '/');
 http.createServer(function(req, res) {
   var ip = req.connection.remoteAddress;
   paperboy

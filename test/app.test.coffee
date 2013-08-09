@@ -4,9 +4,9 @@ if require?
   chai = require 'chai'
 else
   App = window.App
+  chai = window.chai
 
 chai.should()
-
 
 describe "Application", ->
   app = null

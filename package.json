@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "repository": "",
     "scripts": {
-        "start": "brunch watch --server",
+        "start": "node test-server.js",
         "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script"
     },
     "dependencies": {

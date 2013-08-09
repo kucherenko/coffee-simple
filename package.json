@@ -11,7 +11,8 @@
     "dependencies": {
         "javascript-brunch": "*",
         "coffee-script-brunch": "*",
-        "paperboy": "*"
+        "paperboy": "*",
+        "coffeelint": "*"
     },
     "devDependencies": {
         "mocha": "*",

@@ -1,0 +1,21 @@
+{
+    "name": "your-app",
+    "description": "Description",
+    "author": "Your Name",
+    "version": "0.0.1",
+    "repository": "",
+    "scripts": {
+        "start": "brunch watch --server",
+        "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script"
+    },
+    "dependencies": {
+        "javascript-brunch": "*",
+        "coffee-script-brunch": "*",
+        "paperboy": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "chai": "*",
+        "sinon-chai": "*"
+    }
+}

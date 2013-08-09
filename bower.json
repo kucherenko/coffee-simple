@@ -1,0 +1,20 @@
+{
+    "name": "your-app",
+    "version": "0.0.1",
+    "main": "public/app.js",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "components"
+    ],
+    "dependencies": {
+        "coffee-script": "*",
+        "mocha": "*",
+        "chai": "*",
+        "sinon": "*",
+        "sinon-chai": "*"
+    },
+    "overrides": {
+
+    }
+}

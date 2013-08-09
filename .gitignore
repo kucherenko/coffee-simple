@@ -1,0 +1,9 @@
+# NPM packages folder.
+node_modules/
+
+# Bower stuff.
+bower_components/
+
+.idea
+.map
+.js

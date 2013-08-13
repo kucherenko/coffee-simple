@@ -12,6 +12,7 @@
         "javascript-brunch": "*",
         "coffee-script-brunch": "*",
         "paperboy": "*",
+        "coffeekup": "*",
         "coffeelint": "*",
         "verbal-expressions": "*"
     },

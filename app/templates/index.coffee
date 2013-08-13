@@ -20,7 +20,7 @@ html ->
         ul ->
           (li -> a href: '/', -> 'Home') unless @path is '/'
           li -> a href: '/chunky', -> 'Bacon!'
-          switch @user.role
+          switch @user?.role?
             when 'owner', 'admin'
               li -> a href: '/admin', -> 'Secret Stuff'
             when 'vip'
